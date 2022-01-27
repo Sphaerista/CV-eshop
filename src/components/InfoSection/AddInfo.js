@@ -1,3 +1,4 @@
+/* eslint-disable */
 import styles from "./AddInfo.module.css";
 import { useContext, useState } from "react";
 import { useRef } from "react/cjs/react.development";

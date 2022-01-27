@@ -1,3 +1,4 @@
+/* eslint-disable */
 import styles from "./UpdateInfoForm.module.css";
 import { useContext, useState } from "react";
 import AuthContext from "../../hooks/auth-context";

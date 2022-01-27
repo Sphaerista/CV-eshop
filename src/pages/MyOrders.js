@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { getAllOrders } from "../lib/api";
 import useHttp from "./../hooks/use-http";
 import LoadingSpinner from "./../UI/LoadingSpinner";

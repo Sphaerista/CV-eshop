@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useContext, useEffect, useState } from "react";
 import AuthContext from "../hooks/auth-context";
 import useHttp from "../hooks/use-http";

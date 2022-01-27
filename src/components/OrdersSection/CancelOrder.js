@@ -1,3 +1,4 @@
+/* eslint-disable */
 import styles from "./CancelOrder.module.css";
 import Modal from "./../Modal/Modal";
 import useHttp from "./../../hooks/use-http";
