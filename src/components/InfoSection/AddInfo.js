@@ -1,7 +1,6 @@
 /* eslint-disable */
 import styles from "./AddInfo.module.css";
-import { useContext, useState } from "react";
-import { useRef } from "react/cjs/react.development";
+import { useContext, useState, useRef } from "react";
 import AuthContext from "../../hooks/auth-context";
 
 const FIREBASE_DOMAIN = "https://cv-e-shop-default-rtdb.firebaseio.com";

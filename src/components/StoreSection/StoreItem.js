@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 import styles from "./StoreItem.module.css";
 import StoreItemForm from "./StoreItemForm";
 import CartContext from "./../../lib/cart-context";

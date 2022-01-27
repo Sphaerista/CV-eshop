@@ -2,10 +2,9 @@ import styles from "./SelectedItem.module.css";
 import { useParams, Link } from "react-router-dom";
 import useHttp from "../../hooks/use-http";
 import { getSingleItem } from "../../lib/api";
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
 import LoadingSpinner from "./../../UI/LoadingSpinner";
 import StoreItemForm from "./StoreItemForm";
-import { useContext } from "react/cjs/react.development";
 import CartContext from "./../../lib/cart-context";
 import AuthContext from "../../hooks/auth-context";
 

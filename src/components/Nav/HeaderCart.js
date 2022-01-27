@@ -1,6 +1,6 @@
 import styles from "./HeaderCart.module.css";
 import { NavLink } from "react-router-dom";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 import CartContext from "./../../lib/cart-context";
 
 const HeaderCart = () => {

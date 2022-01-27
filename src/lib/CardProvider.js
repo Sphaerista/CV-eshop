@@ -1,4 +1,4 @@
-import { useReducer } from "react/cjs/react.development";
+import { useReducer } from "react";
 import CartContext from "./cart-context";
 
 const defaultCartState = {
