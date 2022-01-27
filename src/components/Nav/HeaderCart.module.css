@@ -1,0 +1,35 @@
+.div {
+  border: 1px solid rgb(241, 194, 135);
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  cursor: pointer;
+  justify-content: space-around;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.badge {
+  background-color: rgb(241, 194, 135);
+  padding: 0rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50px;
+}
+
+a.active {
+  color: rgb(207, 111, 207);
+  text-decoration: non;
+  border-radius: 50px;
+  background-color: rgb(240, 179, 105, 0.1);
+  background-color: white;
+}
+
+a.active div {
+  background-color: rgb(240, 179, 105, 0.8);
+}
+a.active .badge {
+  background-color: rgba(241, 221, 195, 0.8);
+}
+
+.div:hover {
+  color: rgb(207, 111, 207);
+}

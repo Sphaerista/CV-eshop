@@ -1,0 +1,7 @@
+.list {
+  margin: 2rem 5rem;
+  background-color: rgb(240, 179, 105, 0.1);
+  border: 1px solid rgb(252, 199, 134);
+  border-radius: 20px;
+  padding: 0;
+}

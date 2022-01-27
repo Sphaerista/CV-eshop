@@ -1,0 +1,56 @@
+.divided {
+  display: flexbox;
+  justify-content: space-between;
+  padding-bottom: 0.2rem;
+}
+.user-info,
+.orders-info,
+.amount-info {
+  border-bottom: 1px solid rgb(252, 199, 134);
+  padding-bottom: 4px;
+}
+
+.user-info div:first-child,
+.orders-info > div:first-child {
+  font-weight: bold;
+  text-align: end;
+  padding-right: 3rem;
+}
+
+.order-info {
+  display: flex;
+}
+.one-order-info {
+  margin-right: 2rem;
+  padding-right: 2rem;
+  border-right: 1px dashed rgb(219, 217, 215);
+}
+
+.amount-info {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.divided h4 {
+  margin-bottom: 10px;
+}
+.divided div {
+  margin-bottom: 8px;
+}
+.viewbutton {
+  padding: 0.5rem 0 0;
+}
+.viewbutton button {
+  cursor: pointer;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  border: 1px solid rgb(252, 199, 134);
+  background-color: rgb(252, 199, 134, 0.3);
+  font-weight: bold;
+}
+.viewbutton button:hover {
+  background-color: rgb(252, 199, 134, 0.6);
+  border-color: #873abb;
+}

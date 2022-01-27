@@ -1,0 +1,38 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(240, 179, 105, 0.6);
+  padding: 0.5rem 6rem 1rem;
+  margin: 0.5rem 0rem;
+}
+
+.cart-item button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(240, 179, 105, 0.8);
+  border: 2px solid rgb(252, 199, 134);
+  width: 2.2rem;
+  text-align: center;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.15rem;
+}
+
+.cart-item button:hover {
+  background-color: rgb(240, 179, 105, 0.2);
+  border-color: rgb(207, 111, 207);
+}
+
+.price,
+.amount {
+  font-weight: bold;
+}
+
+.summ {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

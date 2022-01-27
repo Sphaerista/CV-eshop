@@ -1,0 +1,87 @@
+.chekout-form {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(255, 228, 196, 0.2);
+  margin: 0 10rem;
+  border-radius: 10px;
+}
+.form {
+  margin: 1rem 0 0;
+}
+
+.chekout-form label {
+  font-weight: bold;
+  display: block;
+}
+
+.chekout-form input {
+  border-radius: 10px;
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
+  border: 1px solid rgb(252, 199, 134);
+  width: 20rem;
+  max-width: 100%;
+}
+
+.div-confirm-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.confirm-button,
+.ok-button {
+  cursor: pointer;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.confirm-button {
+  border: 1px solid rgb(252, 134, 217);
+  background-color: rgba(252, 134, 246, 0.3);
+}
+.confirm-button:hover {
+  background-color: rgb(252, 134, 246, 0.6);
+  border-color: #873abb;
+}
+.ok-button {
+  border: 1px solid rgb(252, 199, 134);
+  background-color: rgb(252, 199, 134, 0.3);
+}
+.ok-button:hover {
+  background-color: rgb(252, 199, 134, 0.6);
+  border-color: #873abb;
+}
+
+.div-back-button {
+  display: flex;
+  justify-content: center;
+}
+
+.back-button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(240, 179, 105, 0.8);
+  border: 2px solid rgb(252, 199, 134);
+  width: 2.2rem;
+  text-align: center;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.15rem;
+}
+.back-button:hover {
+  background-color: rgb(240, 179, 105, 0.2);
+  border-color: rgb(207, 111, 207);
+}
+
+.div-ok-button {
+  display: flex;
+  justify-content: right;
+  padding: 1rem 4rem;
+  margin-right: 1rem;
+}

@@ -1,0 +1,85 @@
+.chekout-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 1rem 0 0;
+}
+
+.control {
+  margin-bottom: 0.7rem;
+}
+
+.control label {
+  font-weight: bold;
+  display: block;
+}
+
+.control input {
+  font: inherit;
+  border: 1px solid grey;
+  border-radius: 7px;
+  width: 20rem;
+  max-width: 100%;
+  padding: 0.2rem 0.5rem;
+}
+
+.invalid p {
+  color: #ca3e51;
+  font-weight: bold;
+  margin: 3px 0 11px;
+}
+
+.invalid input {
+  border-color: #ca3e51;
+  background-color: rgb(241, 217, 216, 0.5);
+}
+
+.div-back-button {
+  display: flex;
+  justify-content: center;
+}
+
+.back-button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(240, 179, 105, 0.8);
+  border: 2px solid rgb(252, 199, 134);
+  width: 2.2rem;
+  text-align: center;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.15rem;
+}
+.back-button:hover {
+  background-color: rgb(240, 179, 105, 0.2);
+  border-color: rgb(207, 111, 207);
+}
+
+.div-confirm-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.div-confirm-button p {
+  font-style: italic;
+}
+.confirm-button {
+  cursor: pointer;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  border: 1px solid rgb(252, 199, 134);
+  background-color: rgb(252, 199, 134, 0.3);
+  font-weight: bold;
+}
+
+.confirm-button:hover {
+  background-color: rgb(252, 199, 134, 0.6);
+  border-color: #873abb;
+}

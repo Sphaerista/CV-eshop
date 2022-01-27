@@ -1,0 +1,37 @@
+.divided {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.divided:not(:last-child) {
+  border-bottom: 1px solid rgb(252, 199, 134);
+}
+
+.divided:hover {
+  background-color: rgb(252, 199, 134, 0.1);
+}
+.item {
+  margin: 0rem 3.5rem;
+}
+.item a {
+  /* text-decoration: none; */
+  text-decoration: underline;
+  color: black;
+}
+.item a:hover {
+  text-decoration: underline;
+  color: rgb(207, 111, 207);
+  cursor: pointer;
+}
+
+.item .goto {
+  padding-top: 0.5rem;
+}
+
+.addbutton {
+  margin: 3.5rem 4.5rem 0rem;
+}
+
+.addbutton p {
+  font-style: italic;
+}
