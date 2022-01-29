@@ -1,4 +1,4 @@
-Website's link: https://cranky-perlman-9744e5.netlify.app/home
+Website's link: https://cranky-perlman-9744e5.netlify.app
 
 This project is a simple simulation of e-shop. The main scope was to imitate e-shop's functionality without giving importance to visual design, aesthetic appeal and responsiveness.
 
