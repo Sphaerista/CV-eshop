@@ -1,6 +1,6 @@
 Website's link: https://cranky-perlman-9744e5.netlify.app
 
-This project is a simple simulation of e-shop. The main scope was to imitate e-shop's functionality without giving importance to visual design, aesthetic appeal and responsiveness.
+This project is a simple simulation of e-shop using ReactJS. The main scope was to imitate e-shop's functionality without giving importance to visual design, aesthetic appeal and responsiveness.
 
 These are the features that I was focused on:
 
